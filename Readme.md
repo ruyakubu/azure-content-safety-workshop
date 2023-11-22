@@ -5,6 +5,8 @@ As we build applications that engage with people, it’s vital that the content 
 There are several challenges in having a staff of moderators to review the content. The limitations are difficult to manually inspect the enormous amount of text or images. Another challenge is that the staff that are evaluating the text are subjective, insistent on what they classify as a violation, or it can be time consuming. Using the Content Safety AI service makes it possible to catch issues faster and more efficiently. This reduces unnecessary manual repetitive tasks and potentially errors. In addition, the API service has built-in profanity detection.
 With the vast use of generative AI, there are user input prompts and dynamic AI-generated responses, Azure Content Safety serves as a useful tool to safeguard content that can be risky or undesirable.
 
+![](/img/cs-severity-levels.gif)
+
 ## At the end of the workshop, you will:
 -	Learn how to detect and flag text that are unsuitable for end-users.
 -	Learn how to block images that are inappropriate.
@@ -54,6 +56,8 @@ To start, open the [GitHub repo](https://github.com/ruyakubu/azure-content-safet
 
 # Exercise 3:  Analyze Text
 
+![](/img/cs-text-filter.png)
+
 When dealing with text, it is either user or application generated. With Generative AI, we need to be mindful that the text to be examined is either user input prompts or AI generated responses. For example, one of the challenges of using social media or Chat applications to a demographic of high school students is that it introduces system vulnerabilities for users to enter text that have profanity, bullying, harassment, derogatory implications etc. 
 
 Let’s explore how the Content Safety API handles text.
@@ -68,6 +72,8 @@ Let’s explore how the Content Safety API handles text.
 
 
 ## Exercise 4:  Analyze Image
+
+![](/img/cs-image-filter.png)
 
 There are tons of applications and social medial sites that enable users to upload images. This opens a flood gate of opportunities for users to upload sexual derogative content, violence, or harmful content. Similar to text, it’s not realistic to rely on users to flag inappropriate content or the staff to manually see the content when it’s uploaded.  Even with manual monitors, images are subjected to each individual evaluator to determine if it is risky. 
 
